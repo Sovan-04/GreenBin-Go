@@ -1,0 +1,174 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GreenBin Go</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">GreenBin Go</div>
+    <nav class="navbar">
+      <a href="#about">About</a>
+      <a href="#how">How It Works</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#signup">Sign Up</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Turn Waste into Worth</h1>
+    <p>Join our mobile composting service and make a real impact—right from your doorstep.</p>
+    <a href="#signup" class="cta-button">Get Started</a>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- About Section -->
+<section id="about" class="about">
+  <h2>Why GreenBin Go?</h2>
+  <p>
+    Every year, tons of food waste end up in landfills, releasing harmful methane gas. 
+    GreenBin Go provides a simple way to compost your kitchen scraps and help create nutrient-rich soil for local farms—all from your home.
+  </p>
+</section>
+<!-- How It Works Section -->
+<section id="how" class="how-it-works">
+  <h2>How It Works</h2>
+  <div class="steps">
+    <div class="step">
+      <h3>1. Subscribe</h3>
+      <p>Sign up and get your compost bin delivered to your door.</p>
+    </div>
+    <div class="step">
+      <h3>2. Collect</h3>
+      <p>Fill your bin with food scraps and organic waste throughout the week.</p>
+    </div>
+    <div class="step">
+      <h3>3. Pick Up</h3>
+      <p>We’ll pick it up and compost it at local farms and gardens.</p>
+    </div>
+  </div>
+</section>
+<!-- Benefits Section -->
+<section id="benefits" class="benefits">
+  <h2>Why It Matters</h2>
+  <div class="benefit-items">
+    <div class="benefit">
+      <h3>🌍 Eco-Friendly</h3>
+      <p>Reduce methane emissions by keeping food waste out of landfills.</p>
+    </div>
+    <div class="benefit">
+      <h3>🧺 Hassle-Free</h3>
+      <p>We handle the mess—just fill your bin and we do the rest.</p>
+    </div>
+    <div class="benefit">
+      <h3>🏆 Get Rewarded</h3>
+      <p>Earn points for every pickup that you can redeem at local markets.</p>
+    </div>
+  </div>
+</section>
+<!-- Sign Up Section -->
+<section id="signup" class="signup">
+  <h2>Join the Green Movement</h2>
+  <p>Ready to make a difference? Sign up now and get started with your first compost pickup.</p>
+  <form class="signup-form">
+    <input type="email" placeholder="Your Email" required />
+    <button type="submit">Sign Up</button>
+  </form>
+</section>
+<!-- Footer -->
+<footer class="footer">
+  <p>&copy; 2025 GreenBin Go. All rights reserved.</p>
+</footer>
+<button id="darkToggle" class="dark-toggle">🌙 Dark Mode</button>
+<!-- AOS CSS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<section id="about" class="about" data-aos="fade-up">
+...
+<div class="step" data-aos="fade-right">
+...
+<div class="benefit" data-aos="zoom-in">
+...
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<h3><i class="fas fa-recycle"></i> Eco-Friendly</h3>
+<h3><i class="fas fa-hand-holding-heart"></i> Get Rewarded</h3>
+<button id="backToTop" class="back-to-top">↑ Top</button>
+<!-- Impact Stats -->
+<section class="impact" data-aos="fade-up">
+  <h2>Our Impact So Far</h2>
+  <div class="stats">
+    <div><strong>12,000+</strong><br> lbs of compost collected</div>
+    <div><strong>500+</strong><br> households served</div>
+    <div><strong>25+</strong><br> local gardens supported</div>
+  </div>
+</section>
+<!-- Testimonials -->
+<section class="testimonials" data-aos="fade-up">
+  <h2>What Our Users Say</h2>
+  <div class="testimonial-items">
+    <div class="testimonial">
+      <p>"GreenBin Go made composting so easy! I feel great knowing my food scraps are helping the planet."</p>
+      <h4>– Jamie R.</h4>
+    </div>
+    <div class="testimonial">
+      <p>"The pickups are always on time, and I love the rewards program. Highly recommended!"</p>
+      <h4>– Malik T.</h4>
+    </div>
+    <div class="testimonial">
+      <p>"I didn’t realize how much waste I could divert from landfills until I joined GreenBin Go."</p>
+      <h4>– Priya K.</h4>
+    </div>
+  </div>
+</section>
+<!-- Impact Stats -->
+<section class="impact" data-aos="fade-up">
+  <h2>Our Impact So Far</h2>
+  <div class="stats">
+    <div><strong><span class="counter" data-target="12000">0</span>+</strong><br> lbs of compost collected</div>
+    <div><strong><span class="counter" data-target="500">0</span>+</strong><br> households served</div>
+    <div><strong><span class="counter" data-target="25">0</span>+</strong><br> local gardens supported</div>
+  </div>
+</section>
+<!-- FAQ Section -->
+<section class="faq" data-aos="fade-up">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-item">
+    <button class="faq-question">How often is the compost bin picked up?</button>
+    <div class="faq-answer">We pick up bins weekly on your scheduled day. You'll get a reminder via email or text.</div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-question">What can I put in my bin?</button>
+    <div class="faq-answer">Fruit and veggie scraps, coffee grounds, eggshells, paper towels, and more. Full list provided after signup.</div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-question">Do I need to clean the bin?</button>
+    <div class="faq-answer">Nope! We sanitize and swap your bin at every pickup.</div>
+  </div>
+</section>
+<!-- Header -->
+<header class="header">
+  <div class="logo">GreenBin Go</div>
+  <button id="menuToggle" class="hamburger">&#9776;</button>
+  <nav class="navbar" id="navbar">
+    <a href="#about">About</a>
+    <a href="#how">How It Works</a>
+    <a href="#benefits">Benefits</a>
+    <a href="#signup">Sign Up</a>
+  </nav>
+</header>
+<div id="progressBar"></div>
+<a href="#signup" class="fab">+</a>
